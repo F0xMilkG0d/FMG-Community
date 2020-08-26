@@ -281,8 +281,7 @@ blacklists: {
             BANNED: 'null'
         }
     }));
-
-    // Start the bot and extend it when it has loaded.    
-    $.getScript("https://raw.githack.com/F0xMilkG0d/FMGBot/master/FMGBot.js", extend);
+    
+    $.getScript("https://rawgit.com/ureadmyname/basicBot/master/basicBot.js", extend);
 
 }).call(this);
