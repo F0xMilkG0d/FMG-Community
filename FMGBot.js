@@ -221,8 +221,8 @@ localStorage.setItem("FMGBotsettings", JSON.stringify({
 
 botName: "FMGBot",
 language: "english",
-chatLink: "https://raw.githack.com/F0xMilkG0d/FMGBot/master/en.json",
-scriptLink: "https://raw.githack.com/F0xMilkG0d/FMGBot/master/FMGBot.js",
+chatLink: "https://rawgit.com/ureadmyname/basicBot/master/lang/en.json",
+scriptLink: "https://rawgit.com/ureadmyname/basicBot/master/basicBot.js",
 roomlock: false,
 startupCap: 200,
 startupVolume: 0,
