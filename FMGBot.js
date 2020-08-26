@@ -150,7 +150,7 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me Staff Guidelines: Comming soon");}}};
+else {API.sendChat("/me Staff Guidelines and other: Comming soon");}}};
 
 bot.commands.illuminatiCommand = {
 command: 'illuminati',
@@ -186,7 +186,7 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me be polite.");}}};
+else {API.sendChat("/me be polite and good boy/girl.");}}};
 
 bot.commands.triggeredCommand = {
 command: 'triggered',
@@ -204,7 +204,7 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me ");}}};
+else {API.sendChat("/me https://www.twitch.tv/f0xmilkg0d");}}};
 
 bot.commands.twitchliveCommand = {
 command: 'twitchlive',
@@ -213,11 +213,11 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me ");}}};
+else {API.sendChat("/me https://www.twitch.tv/f0xmilkg0d");}}};
 
 //
 bot.loadChat();}
-localStorage.setItem("basicBotsettings", JSON.stringify({
+localStorage.setItem("FMGBotsettings", JSON.stringify({
 
 botName: "FMGBot",
 language: "english",
