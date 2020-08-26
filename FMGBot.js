@@ -7,7 +7,7 @@ return setTimeout(extend, 1 * 1000);}
 var autoFav = true;
 var autoRoulette = true;
 var autoRules = true;
-var autoTwitch = false;
+var autoTwitch = true;
 var bot = window.bot;
 var minute= 1000 * 60;
 
@@ -221,7 +221,7 @@ localStorage.setItem("FMGBotsettings", JSON.stringify({
 
 botName: "FMGBot",
 language: "english",
-chatLink: "",
+chatLink: "https://raw.githack.com/F0xMilkG0d/FMGBot/master/en.json",
 scriptLink: "https://raw.githack.com/F0xMilkG0d/FMGBot/master/FMGBot.js",
 roomlock: false,
 startupCap: 200,
@@ -265,19 +265,24 @@ motd: "join us also too discord: https://discord.gg/8upS3Qg",
 filterChat: false,
 etaRestriction: false,
 welcome: true,
-opLink: "",
-rulesLink: "",
-themeLink: "",
-fbLink: "coming",
-youtubeLink: "coming",
-website: "coming",
+opLink: null,
+rulesLink: null,
+themeLink: null,
+fbLink: null,
+youtubeLink: null,
+website: null,
 intervalMessages: [],
 messageInterval: 30,
 songstats: true,
 commandLiteral: "!",
 blacklists: {
-NSFW: "",
-OP: "",
-BANNED: ""}}));
-$.getScript("https://raw.githack.com/F0xMilkG0d/FMGBot/master/FMGBot.js", extend);
+            NSFW: 'null',
+            OP: 'null',
+            BANNED: 'null'
+        }
+    }));
+
+    // Start the bot and extend it when it has loaded.    
+    $.getScript("https://raw.githack.com/F0xMilkG0d/FMGBot/master/FMGBot.js", extend);
+
 }).call(this);
