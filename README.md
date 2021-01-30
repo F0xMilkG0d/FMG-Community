@@ -1,6 +1,6 @@
 #BOITSCOMMUNITY
 ___________________________________________________________________________________________________________________________________
-[![Discord](https://img.shields.io/discord/450685330887016451.svg)](https://discord.gg/gT5yKk3vPA) [![facebook group](https://img.shields.io/badge/facebook-group-3b5998.svg?style=flat)]() [![twitter](https://img.shields.io/twitter/follow/13375P34KPLUGDJ.svg?style=social)]()
+[![Discord](https://img.shields.io/discord/450685330887016451.svg)](https://discord.gg/gT5yKk3vPA)
 ___________________________________________________________________________________________________________________________________
 Welcome to BOITS COMMUNITY Team!
 ___________________________________________________________________________________________________________________________________
@@ -8,7 +8,7 @@ come and let music and listen music: https://plug.dj/best-of-it-specialist-2020?
 ___________________________________________________________________________________________________________________________________
 Using custom room settings or adding functionality is done by loading your own script loading and modifying the bot.
 This repository's purpose is to facilitate this. You can fork the repository and customise [the example script](https://github.com/F0xMilkG0d/FMGBot/blob/master/FMGBot.js).
-When you have forked the repo, bookmark the following script, __but change _FMGBot_ to your own github handle__.
+When you have forked the repo, bookmark the following script, __but change _BOITSBot_ to your own github handle__.
 
 `javascript:(function(){$.getScript('https://raw.githack.com/F0xMilkG0d/FMGBot/master/FMGBot.js');})();`
 
