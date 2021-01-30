@@ -217,9 +217,9 @@ else {API.sendChat("/me https://www.twitch.tv/f0xmilkg0d");}}};
 
 //
 bot.loadChat();}
-localStorage.setItem("FMGBotsettings", JSON.stringify({
+localStorage.setItem("BOITSBotsettings", JSON.stringify({
 
-botName: "FMGBot",
+botName: "BOITSBot",
 language: "english",
 chatLink: "https://rawgit.com/ureadmyname/basicBot/master/lang/en.json",
 scriptLink: "https://rawgit.com/ureadmyname/basicBot/master/basicBot.js",
@@ -261,7 +261,7 @@ afkpositionCheck: 60,
 afkRankCheck: "ambassador",
 motdEnabled: true,
 motdInterval: 5,
-motd: "join us also too discord: https://discord.gg/8upS3Qg",
+motd: "join us also too discord: https://discord.gg/gT5yKk3vPA",
 filterChat: false,
 etaRestriction: false,
 welcome: true,
